@@ -10,12 +10,12 @@ For a proper solution, follow [hashicorp/terraform#15608](https://github.com/has
 
 ```bash
 sudo snap install ruby          # version 2.6.3, or
-sudo apt  install -y ruby-bundler
+sudo apt install -y ruby-bundler
 bundle install
+sudo ln -s $(pwd)/tf-import-hcl.rb /usr/local/bin/
 ```
 
-
-## Usage
+## usage
 
 `./tf-import-hcl.rb resource_type.resource_name resource_id [other parameters passed to Terraform]`
 

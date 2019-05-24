@@ -7,9 +7,11 @@
 def usage
   puts <<EOF
 Usage:
-  #{__FILE__} resource_type.resource_name resource_id [other parameters]
+  #{__FILE__} resource_type.resource_name resource_id [other terraform's parameters]
 Equivalent of:
-  terraform resource_type.resource_name resource_id [other parameters]
+  terraform import resource_type.resource_name resource_id [other  parameters]
+Issues:
+  Delete terraform.tfstate before run
 EOF
   exit 1
 end
