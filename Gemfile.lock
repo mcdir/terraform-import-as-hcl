@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    justrun (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  justrun
+
+RUBY VERSION
+   ruby 2.5.1p57
+
+BUNDLED WITH
+   1.16.1
